@@ -10,7 +10,7 @@ Model used :
 - FinBERT 
 
 
-We followed a standard machine learning workflow on Python with **scikit-learn** and **pytorch** :
+We followed a standard machine learning workflow on Python with **scikit-learn** , **PyTorch**, **transformers** :
 
 - **Data Preprocessing** : cleaning actions/tickers , url and special character -> tokenization -> lemmatization -> vectorization (BOW and TF-IDF)
 - **Model Implementation** : we first implemented models on binary classifcation task (negative VS non-negative) to evaluate and compare their performance.
